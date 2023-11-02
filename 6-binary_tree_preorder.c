@@ -7,9 +7,9 @@
 *        The value in the node must be passed as a parameter to this function.
 *
 * Description: This function traverses a binary tree using pre-order traversal.
-*              In pre-order traversal, the current node is visited first,
-*              then the left subtree is traversed, and finally the right subtree.
-*              The specified function is performed on each node during the traversal.
+*        In pre-order traversal, the current node is visited first,
+*        then the left subtree is traversed, and finally the right subtree.
+*        The specified function is performed on each node during the traversal.
 *
 * If tree or func is NULL, the function does nothing.
 */

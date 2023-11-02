@@ -6,10 +6,10 @@
 * @func: A Pointer to a function to call for each node.
 *        The value in the node must be passed as a parameter to this function.
 *
-* Description: This function traverses a binary tree using post-order traversal.
+* Description: This function traverses binary tree using post-order traversal.
 *              In post-order traversal, the left subtree is traversed first,
-*              then the right subtree is traversed, and finally the current node is visited.
-*              The specified function is performed on each node during the traversal.
+* then the right subtree is traversed, and finally the current node is visited.
+*  The specified function is performed on each node during the traversal.
 *
 * If either tree or func is NULL, the function does nothing.
 */
