@@ -6,10 +6,11 @@
  */
 void binary_tree_delete(binary_tree_t *tree_root)
 {
-    if (tree_root != NULL)
-    {
-        binary_tree_delete(tree_root->left);
-        binary_tree_delete(tree_root->right);
-        free(tree_root);
-    }
+	if (tree_root != NULL)
+	{
+		binary_tree_delete(tree_root->left);
+		binary_tree_delete(tree_root->right);
+
+		free(tree_root);
+	}
 }

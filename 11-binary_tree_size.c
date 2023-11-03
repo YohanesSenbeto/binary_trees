@@ -8,13 +8,13 @@
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
-    size_t size_measured = 0;
+	size_t size_measured = 0;
 
-    if (tree)
-    {
-        size_measured += 1;
-        size_measured += binary_tree_size(tree->left);
-        size_measured += binary_tree_size(tree->right);
-    }
-    return (size_measured);
+	if (tree)
+	{
+		size_measured += 1;
+		size_measured += binary_tree_size(tree->left);
+		size_measured += binary_tree_size(tree->right);
+	}
+	return (size_measured);
 }
